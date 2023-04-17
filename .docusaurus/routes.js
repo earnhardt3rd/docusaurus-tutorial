@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'bef'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '883'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '09b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '50c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '575'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '5d4'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '1e9'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'bc5'),
     exact: true
@@ -93,13 +58,23 @@ export default [
     exact: true
   },
   {
+    path: '/helloworld',
+    component: ComponentCreator('/helloworld', 'c61'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '0f5'),
     exact: true
   },
   {
+    path: '/my-react-page',
+    component: ComponentCreator('/my-react-page', '93c'),
+    exact: true
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f1e'),
+    component: ComponentCreator('/docs', '187'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -140,6 +115,12 @@ export default [
       {
         path: '/docs/doc5',
         component: ComponentCreator('/docs/doc5', '01a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/hello',
+        component: ComponentCreator('/docs/hello', '7a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

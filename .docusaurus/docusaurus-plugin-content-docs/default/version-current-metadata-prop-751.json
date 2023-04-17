@@ -110,6 +110,12 @@
         "label": "Fifth Document",
         "href": "/docs/doc5",
         "docId": "doc5"
+      },
+      {
+        "type": "link",
+        "label": "Hello",
+        "href": "/docs/hello",
+        "docId": "hello"
       }
     ]
   },
@@ -142,6 +148,12 @@
       "id": "doc5",
       "title": "Fifth Document",
       "description": "Another one",
+      "sidebar": "tutorialSidebar"
+    },
+    "hello": {
+      "id": "hello",
+      "title": "Hello",
+      "description": "This is my SECOND Docusaurus document!",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

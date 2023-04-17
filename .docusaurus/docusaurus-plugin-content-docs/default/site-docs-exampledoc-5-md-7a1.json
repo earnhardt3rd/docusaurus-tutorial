@@ -19,5 +19,9 @@
   "previous": {
     "title": "Other Document",
     "permalink": "/docs/doc4"
+  },
+  "next": {
+    "title": "Hello",
+    "permalink": "/docs/hello"
   }
 }
